@@ -1,0 +1,77 @@
+/* Reset default browser styles */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: purple;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section styles */
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.copy {
+  font-weight: bolder;
+  background-color: black;
+  height: 5vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
+
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  background-image: url("HinduSwastika.svg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Home section styles */
+#home {
+  background-color: #f4f4f4;
+}
+
+/* Products section styles */
+#products {
+  background-color: #fff;
+}
+
+/* About section styles */
+#about {
+  background-color: #f4f4f4;
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #fff;
+}
